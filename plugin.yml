@@ -1,0 +1,32 @@
+name: AutoUpdater
+main: AutoUpdater\Main
+version: "1.1"
+api: [1.8.0]
+load: STARTUP
+author: EvolSoft
+description: Update PocketMine automatically
+website: https://www.evolsoft.tk
+
+commands:
+ autoupdater:
+   aliases: [au, aupdater]
+   description: AutoUpdate commands.
+   permission: autoupdater
+ update:
+   description: Update Server.
+   permission: autoupdater.update
+
+permissions:
+ autoupdater:
+  default: op
+  description: AutoUpdater commands permissions.
+  children:
+   autoupdater.info:
+    default: op
+    description: AutoUpdater command Info permission.
+   autoupdater.reload:
+    default: op
+    description: AutoUpdater command Reload permission.
+   autoupdater.update:
+    default: op
+    description: AutoUpdater command Update permission.
