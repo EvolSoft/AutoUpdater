@@ -1,0 +1,8 @@
+---
+update-check-time: 60
+auto-update: true
+timeout: 10
+channel: "Development"
+file-name: "PocketMine-MP.phar"
+start-script: ""
+...
