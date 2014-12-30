@@ -22,7 +22,7 @@ With AutoUpdater you can automatically update your PocketMine server. (read docu
 
 **Commands:**
 
-***/autoupdate*** *- AutoUpdate commands*<br>
+***/autoupdater*** *- AutoUpdater commands*<br>
 ***/update*** *- Update your server*
 
 **To-Do:**
