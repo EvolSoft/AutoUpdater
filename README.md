@@ -55,17 +55,17 @@ start-script: ""
 ...
 ```
 
-Commands:
+**Commands:**
 
-/autoupdater - AutoUpdate commands (aliases: [au, aupdater])
-/update - Update your server
+***/autoupdater*** *- AutoUpdate commands (aliases: [au, aupdater])*<br>
+***/update*** *- Update your server*
 
-Permissions:
+**Permissions:**
 
-- autoupdater.* - AutoUpdater commands permissions.
-- autoupdater.info - AutoUpdater command Info permission.
-- autoupdater.reload - AutoUpdater command Reload permission.
-- autoupdater.update - AutoUpdater command Update permission.
+- <dd><i><b>autoupdater.*</b> - AutoUpdater commands permissions.</i></dd>
+- <dd><i><b>autoupdater.info</b> - AutoUpdater command Info permission.</i></dd>
+- <dd><i><b>autoupdater.reload</b> - AutoUpdater command Reload permission.</i></dd>
+- <dd><i><b>autoupdater.update</b> - AutoUpdater command Update permission.</i></dd>
 
 
 
